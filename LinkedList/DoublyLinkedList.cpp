@@ -113,4 +113,6 @@ int main(){
     insertAtLast(head,99);
     insertAtPos(head,3,76);
     print(head);
+    deletepos(head,3);
+    print(head);
 }
