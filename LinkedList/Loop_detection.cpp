@@ -18,4 +18,19 @@ public:
     }
     return false;
     }
+
+    
+    // map<Node*,bool> visited;
+    // if(head==NULL){
+    //     return true;
+    // }
+    // Node* temp=head;
+    // while(temp!=NULL){
+    //     if(visited[temp]==true){
+    //         return true;
+    //     }
+    //     visited[temp]=true;
+    //     temp=temp->next;
+    // }
+    // return false;
 };
